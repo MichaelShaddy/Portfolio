@@ -15,12 +15,13 @@ body {
 }
 nav {
     display: flex;
+    position: relative;
     width: 100%;
     justify-content: space-around;
     height: 90px;
     line-height: 90px;
-    z-index: 111;
-    box-shadow: 0px 10px 8px #0000003c ;
+    z-index: 10;
+    box-shadow: 0px 10px 35px #000000a3 ;
 }
 .logo {
     display: flex;
@@ -32,18 +33,18 @@ nav {
     text-transform: uppercase;
 }
 .logo > img {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     border-radius: 60px;
-    background-color: #a2a1a1;
-    margin-right: 18px;
+    background-color:#878ab5;
+    margin: 9px 18px 0 0;
 }
 .logo > b {
     background-image: 
-    linear-gradient(to right, #682985, #613099, #442a97 ,#355796, #293485, #682985); 
+    linear-gradient(to right, #878ab5, #8572a4, #5c4c81 ,#433371, #2f1962, #878ab5); 
   -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;  
-  animation: rainbow 1000s linear infinite;
+  animation: rainbow 175s linear infinite;
 }
 @keyframes rainbow {
     to {
@@ -65,7 +66,7 @@ nav {
     text-transform: capitalize;
 }
 .navItems li:hover a, .links a:hover {
-    color: #442a97;
+    color: #0E0C16;
 }
 .links a{
 
@@ -76,4 +77,25 @@ nav {
 .links i{
     height: 50px;
     width: 50px;
+}
+.blob-ctr{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    height: 1000px;
+}
+.svg1{
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    width: 200%;
+}
+.svg2{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    height: 100%;
+    padding-left: 30%;
+}
+.title{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
 }
