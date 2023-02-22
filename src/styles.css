@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+body {
+    overflow: hidden;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e2e2e2;
+}
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 90px;
+    line-height: 90px;
+    z-index: 111;
+    box-shadow: 0px 10px 8px #0000003c ;
+}
+.logo {
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    cursor: pointer;
+    color: #878ab5;
+    text-transform: uppercase;
+}
+.logo > img {
+    width: 90px;
+    height: 90px;
+    border-radius: 60px;
+    background-color: #a2a1a1;
+    margin-right: 18px;
+}
+.logo > b {
+    background-image: 
+    linear-gradient(to right, #682985, #613099, #442a97 ,#355796, #293485, #682985); 
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+  animation: rainbow 1000s linear infinite;
+}
+@keyframes rainbow {
+    to {
+        background-position: 500vh;
+    }
+}
+.navItems {
+    display: flex;
+}
+.navItems li {
+    list-style: none;
+    margin: 0 20px;
+}
+.navItems li a {
+    font-size: 25px;
+    color: #878ab5;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navItems li:hover a, .links a:hover {
+    color: #442a97;
+}
+.links a{
+
+    font-size: 30px;
+    color: #878ab5;
+    margin: 25px 10px;
+}
+.links i{
+    height: 50px;
+    width: 50px;
+}
