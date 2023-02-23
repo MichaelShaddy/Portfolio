@@ -9,6 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800&family=Share+Tech&family=Solitreo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("pktou5yMT3msiDfI-");
+        })();
+    </script>
     <title>Contact</title>
 </head>
 <body>
@@ -26,10 +34,32 @@
                 <a href="https://github.com/michaelshaddy" target="_blank"><i class="fab fa-github"></i></a>
             </div>
         </nav>
-        <div class="contact-container">
-            <div class="form">
-                
+        <section class="contact">
+            <div class="content">
+                <h1>&lt;<b>Contact Me</b>/&gt;</h1>
+                <p>For all business inquires or job offerings, please submit the form below with your contact information and a detailed description on your matter. Looking forward from hearing from you.</p>
             </div>
+            <div class="contactForm">
+                <form>
+                    <h2><b>Send Contact Message</b></h2>
+                    <div class="inputBox">
+                        <input type="text" id="fullName" required="required">
+                        <span>Name/Business</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" id="email_id" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea id="message" required="required"></textarea>
+                        <span>Message</span>
+                    </div>
+                    <div class="inputBox">
+                        <button onclick="sendMail()">Send</button>
+                    </div>
+                </form>
+            </div>
+        </section>
         </div>
     </div>
 </body>
