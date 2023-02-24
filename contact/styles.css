@@ -31,14 +31,14 @@ nav {
     font-weight: 800;
     letter-spacing: 3px;
     cursor: pointer;
-    color: #b789e9;
+    color: #433371;
     text-transform: uppercase;
 }
 .logo img{
     width: 70px;
     height: 70px;
     border-radius: 60px;
-    background-color:#9e7fd0;
+    background-color:#433371;
     margin: 9px 18px 0 0;
 }
 .logo b{
@@ -67,7 +67,7 @@ nav {
 }
 .navItems li a {
     font-size: 25px;
-    color: #9e7fd0;
+    color: #433371;
     letter-spacing: 3px;
     text-decoration: none;
     text-transform: capitalize;
@@ -78,7 +78,7 @@ nav {
 }
 .links a{
     font-size: 30px;
-    color: #9e7fd0;
+    color: #433371;
     margin: 25px 10px;
 }
 .links i{
@@ -102,8 +102,8 @@ nav {
 }
 .content h1{
     font-size: 90px;
-    color: #9e7fd0;
-    margin-bottom: 30px;
+    color: #433371;
+    margin-bottom: 20px;
 }
 .content h1 b{
     background-image: 
@@ -114,7 +114,7 @@ nav {
 }
 .content p{
     font-size: 20px;
-    color: #6b3f9b;
+    color: #433371;
 }
 .contactForm{
     display: flex;
@@ -122,12 +122,13 @@ nav {
     width: 30%;
     height: 40%;
     padding: 40px;
+    margin-top:20px;
     background-color: #e2e2e2;
-    box-shadow: 0 0 30px #4d0d7a6a;
+    box-shadow: 0 0 30px #433371;
 }
 .contactForm h2{
     font-size: 32px;
-    color: #9e7fd0;
+    color: #433371;
 }
 .contactForm h2 b{
     background-image: 
@@ -149,7 +150,7 @@ nav {
     font-size: 16px;
     margin: 10px 0;
     border: none;
-    border-bottom: 2px solid #7d1dc1;
+    border-bottom: 2px solid #433371;
     outline: none;
     resize: none;
 }
@@ -177,8 +178,8 @@ nav {
 .contactForm .inputBox button{
     width: 100px;
     background: #e2e2e2;
-    color: #8e4fbb;
-    border: 2px solid #8e4fbb;
+    color: #433371;
+    border: 2px solid #433371;
     border-radius: 50px;
     cursor: pointer;
     padding: 10px 25px;
@@ -189,4 +190,5 @@ nav {
     text-shadow: 0 0 10px #ab56ff;
     transform: scale(1.1);
     background-color: #e1c6ff;
+
 }

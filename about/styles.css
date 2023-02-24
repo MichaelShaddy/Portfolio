@@ -31,14 +31,14 @@ nav {
     font-weight: 800;
     letter-spacing: 3px;
     cursor: pointer;
-    color: #b789e9;
+    color: #433371;
     text-transform: uppercase;
 }
 .logo img{
     width: 70px;
     height: 70px;
     border-radius: 60px;
-    background-color:#9e7fd0;
+    background-color:#433371;
     margin: 9px 18px 0 0;
 }
 .logo b{
@@ -67,7 +67,7 @@ nav {
 }
 .navItems li a {
     font-size: 25px;
-    color: #9e7fd0;
+    color: #433371;
     letter-spacing: 3px;
     text-decoration: none;
     text-transform: capitalize;
@@ -78,7 +78,7 @@ nav {
 }
 .links a{
     font-size: 30px;
-    color: #9e7fd0;
+    color: #433371;
     margin: 25px 10px;
 }
 .links i{
